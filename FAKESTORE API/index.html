@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <h1 style="color: white; font-size: 40px;">Product Listing Page</h1>
+          <div class="filters">
+            <label for="category"></label>
+            <select id="category">
+              <option value="">All Categories</option>
+              <!-- Categories will be populated dynamically -->
+            </select>
+            <label for="sort"></label>
+            <select id="sort">
+              <option value="asc">Low to High</option>
+              <option value="desc">High to Low</option>
+            </select>
+            <input type="text" id="search" placeholder="Search...">
+          </div>
+          </nav>
+          <div class="products">
+            <!-- Product items will be populated dynamically -->
+          </div>
+        </div>
+      
+      
+  <script src="app.js"></script>
+</body>
+</html>
